@@ -6,32 +6,4 @@
 재사용성, 유지보수, 가독성, 랜더링 최적화 등과 같은 다양한 관점에서 컴포넌트를 바라보는 것이 좋습니다.
 퍼블리싱은 없이 컴포넌트 구조 파일만 생성하시면 됩니다!
 폴더 구조
-    src
-      components
-        Button.js
-        SerchBox.js
-        MainBox.js
-        FooterBox.js
-      layouts
-        Footer.js
-        Header.js
-        Layout.js
-      pages
-        Home
-          components
-            SignInForm.js
-            SignUpForm.js
-          index.js
-        Todo
-          components
-            AddTodoModal.js
-            TodoList.js 
-            OneTodo.js
-      routes
-        routing.js
-      styles
-        common.js - 공용 css
-        global.js - 전역 css
-        theme.js - 디자인 토큰 (색상 등과 같은 디자인 관련된 요소를 변수)
-      app.js
-      index.js
+    
